@@ -2,44 +2,49 @@
 
 <head>
     <title>todolist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <div>LOGO</div>
+        <div class="logo">TO
+            <br>DO
+        </div>
         <!--Links-->
-        <div>
+        <div class="links">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="about.html">About</a></li>
             </ul>
-            <hr>
+
         </div>
 
     </header>
-
     <main>
-        <div>
+        <div class="about-me">
             <img src="Source/person.jpg" alt="personal Photo">
-            <h3>Mohammad Attallah</h3>
-            <h5>Web Developer</h5>
+            <div>
+                <h3>Mohammad Attallah</h3>
+                <h5>Web Developer</h5>
+            </div>
+
 
         </div>
         <form>
             <h3>Contact US</h3>
-            <div>
-                <label>Name: </label>
+            <div class="name">
+                <label>Name </label>
                 <input type="text">
             </div>
-            <div>
-                <label>Email : </label>
+            <div class="email">
+                <label>Email </label>
                 <input type="email">
             </div>
-            <div>
-                <label>Message: </label>
+            <div class="msg">
+                <label>Message </label>
                 <input type="text">
             </div>
-
+            <button>Submit</button>
         </form>
     </main>
 
