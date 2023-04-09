@@ -8,5 +8,5 @@
 
 ---
 
-### Main Page (index)
+### About Page (index)
 ![main Page Wirefream](/Source/about.jpg)
