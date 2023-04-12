@@ -39,19 +39,27 @@ function moreQeu (){
     let live = prompt("Where are you Live ?")
     let hobbyQeu = prompt("What's your Favorite Hobby ? ");
     let favorite = prompt("What's your Favorite Football Club ? ")
-
-    ansArr.push(valid(live));
-    ansArr.push(valid(hobbyQeu));
-    ansArr.push(valid(favorite));
-
+    
+    // push to Array
+    pushArr(live, hobbyQeu, favorite);
     //print Arr
-    console.log(ansArr);
+    printArr();
   }else{
     alert("Thank You");
   }
 }
 
+function pushArr (live , hoppy, favorite){
+  ansArr.push(valid(live));
+  ansArr.push(valid(hoppy));
+  ansArr.push(valid(favorite));
+}
 
+function printArr (){
+  for(let i=0; i<ansArr.length; i++){
+    console.log(ansArr[i]);
+  }
+}
 
 // call Function more Qeustion 
 
